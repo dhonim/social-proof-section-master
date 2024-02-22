@@ -1,0 +1,52 @@
+:root{
+    --VeryDarkMagenta: hsl(300, 43%, 22%);
+--SoftPink: hsl(333, 80%, 67%);
+--DarkGrayishMagenta: hsl(303, 10%, 53%);
+--LightGrayishMagenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+--font:'League Spartan', sans-serif;
+}
+strong{
+    font-size: 100px;
+}
+.font_size{
+    font-size: 15px;
+}
+.font_title{
+    font-family: var(--font);
+    font-weight: 700;
+}
+.font_text{
+    font-family: var(--font);
+    font-weight: 400;
+}
+.font-500{
+    font-family: var(--font);
+    font-weight: 500;
+}
+
+.line_spacing{
+line-height: 35px;
+}
+.text-VeryDarkMagenta{
+    color: var(--VeryDarkMagenta);
+}
+.text-SoftPink{
+    color: var(--SoftPink);
+}
+.bg-DarkGrayishMagenta{
+    color: var(--DarkGrayishMagenta);
+}
+.bg-VeryDarkMagenta{
+    background-color: var(--VeryDarkMagenta);
+}
+.box{
+    /* width: 400px; */
+    background-color: var(--LightGrayishMagenta);
+    padding: 10px 1px;
+    border-radius: 7px;
+    text-align: center;
+}
+.card img{
+    border-radius: 50%;
+}
